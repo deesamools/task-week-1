@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>fill form</title>
+  <link rel="stylesheet" href="task.css">
+</head>
+<body>
+  <h1> simple form creation</h1>
+  <form id="my form"method="post" action="#" onsubmit="return validateform()">
+      <fieldset>
+
+    <legend>Fill info</legend>
+
+    <label for="Name"> Full Name</label>
+    <input type="text" name="fullname" id="fullname" placeholder="last name-surname" required>
+    <br>
+    <label for="Email"> Email</label>
+    <input type="text" name="Email" id="Email" placeholder="Email"  required>
+     <br>
+    <label for="phonenumber"> phone number</label>
+    <input type="text" name="phone" id="phone"  required>
+    <br>
+    <label for="male"> male</label>
+    <input type="radio" name="male" id="male" value="male">
+    <label for="female"> female</label>
+    <input type="radio" name="sex" id="female" value="female">
+      <br>
+    <label for="password"> password</label>
+    <input type="text" name="password" id="password" placeholder="enter your password">
+        <br>
+     <button class="submit" onclick="onclickfunction(succecufull)">submit</button>
+  
+  </fieldset>
+  </form>
+
+  <script type="text/javascript">
+    if (all.match) {
+      alert("form submitted successfully");
+      return true;
+    }
+  </script>
+</body>
+</html>
