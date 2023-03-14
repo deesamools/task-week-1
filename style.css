@@ -1,0 +1,24 @@
+label{
+  display: solid;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[ type="email"], input[ type="password"] {
+display: block;
+margin-top: 2px;
+margin-bottom: 0px;
+padding: 5px;
+border: 1px bold #fff;
+border-radius: 3px;
+font-size: 16px;
+width: 100%;
+box-sizing: border-box;
+color: blue;
+
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+
